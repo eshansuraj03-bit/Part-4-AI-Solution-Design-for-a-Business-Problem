@@ -1,13 +1,10 @@
 Task 1: Choose a Business Domain
 Selected Domain: Finance
-
 The finance industry handles large volumes of customer transactions daily. Detecting fraudulent activities quickly and accurately is critical to reducing financial losses and protecting customer trust.
 
 Task 2: Define the Business Problem
 Problem Statement
-
 Financial institutions face increasing challenges in detecting fraudulent transactions in real time. Traditional rule-based systems often fail to identify sophisticated fraud patterns and generate a high number of false alerts.
-
 The goal is to design an AI-powered fraud detection system that can automatically identify suspicious financial transactions using machine learning and neural networks.
 
 Stakeholders / Users
@@ -19,13 +16,11 @@ Regulatory authorities
 Current Traditional Process
 
 Most banks currently use:
-
 Rule-based fraud detection systems
 Manual verification by fraud analysts
 Static threshold-based alerts
 
 Example:
-
 Transaction amount exceeds a limit
 Multiple failed login attempts
 Transactions from unusual locations
@@ -36,22 +31,19 @@ Difficulty detecting new fraud patterns
 Limited scalability
 Delayed response to fraudulent activity
 Customer dissatisfaction due to unnecessary transaction blocking
+
 Task 3: Identify the AI Task Type
 Selected AI Task Type: Classification
-
 The problem is treated as a binary classification task where transactions are classified as:
-
 Fraudulent
 Legitimate
-Why Classification is Suitable
 
+Why Classification is Suitable
 The system needs to predict whether a transaction belongs to one of two predefined classes. Neural network classification models are effective at learning hidden patterns from historical transaction data and identifying suspicious activities.
 
 Task 4: Data Requirement Plan
 Type of Data Needed
-
 The solution requires historical banking transaction data such as:
-
 Transaction amount
 Transaction time
 Merchant category
@@ -73,7 +65,6 @@ IP metadata
 Input Features
 
 Examples of features:
-
 Feature	Description
 Transaction Amount	Value of the transaction
 Transaction Time	Timestamp
@@ -100,6 +91,7 @@ Duplicate entries
 Noisy transaction logs
 Inconsistent customer information
 Delayed fraud labeling
+
 Task 5: Model Recommendation
 Recommended Model: Feed-Forward Neural Network (FNN)
 Alternative Advanced Models
@@ -109,7 +101,6 @@ Transformer-based fraud analysis systems
 Why Feed-Forward Neural Network is Appropriate
 
 A Feed-Forward Neural Network works well because:
-
 Transaction data is primarily structured
 The model can learn nonlinear fraud patterns
 It handles large datasets efficiently
@@ -130,6 +121,7 @@ Features are normalized and encoded
 Neural network processes transaction patterns
 Fraud probability score is generated
 Suspicious transactions are flagged for review
+
 Task 6: Evaluation Plan
 Technical Metrics
 Metric	Purpose
@@ -154,72 +146,61 @@ Fraud analysts review high-risk transactions
 Escalation system for uncertain predictions
 Continuous monitoring and retraining
 Human approval before account suspension
+
 Task 7: Responsible AI Considerations
 Bias in Data
-
 Historical fraud data may contain:
-
 Geographic bias
 Customer demographic bias
 Device usage bias
 
 Mitigation:
-
 Balanced training data
 Bias testing during evaluation
 Fairness monitoring
 Incorrect Predictions
 
 Risks:
-
 Genuine customers may be blocked
 Fraudulent transactions may pass undetected
 
 Mitigation:
-
 Human review system
 Confidence threshold tuning
 Ensemble validation methods
 Privacy Concerns
 
 Sensitive financial data must be protected.
-
 Mitigation:
-
 Data encryption
 Access control mechanisms
 Compliance with GDPR and banking regulations
 Secure data storage
-Over-Reliance on AI
-
+Over-Reliance
 Employees should not fully depend on automated predictions.
 
 Mitigation:
-
 Human-in-the-loop system
 Analyst approval workflows
 Explainable AI dashboards
 Impact on Users
 
 Potential impacts:
-
 Account freezing
 Delayed payments
 Customer frustration
 
 Mitigation:
-
 Fast verification channels
 Transparent communication
 Appeal and dispute process
 Task 8: Final One-Page Solution Summary
 AI-Based Financial Fraud Detection System
-Problem
 
+Problem
 Banks struggle to detect fraudulent transactions efficiently using traditional rule-based systems. Existing systems generate many false alerts and fail to identify complex fraud patterns.
 
 Proposed AI Solution
-
 Develop a neural network-based fraud detection system that analyzes transaction behavior in real time and predicts whether a transaction is fraudulent.
 
 Required Data
@@ -232,7 +213,6 @@ Recommended Model
 Feed-Forward Neural Network (FNN)
 
 Reason:
-
 Effective for structured financial transaction data
 Learns hidden fraud patterns
 Scalable and accurate
